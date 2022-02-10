@@ -20,12 +20,10 @@ body{
     display:flex;
 }
 .toplinks {
-    display:flex;
-    flex-direction:row;
+
     margin: 0px;
     padding:0px;
-    gap:16px;
-
+    
   }
 a{
     text-decoration:none;
@@ -33,9 +31,13 @@ a{
 }
 
 ul {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
     list-style-type:none;
     margin:0;
     padding:0;
+    gap:16px;
 
 }
 
