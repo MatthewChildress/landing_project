@@ -2,8 +2,9 @@
 
 body{
     background-color:rgb(31,45,55);
-}
+    font-family: Roboto, sans-serif;
 
+}
 
 .header{
     display:flex;
@@ -12,7 +13,17 @@ body{
     font-size:24px;
     color:#F9FAF8;
 }
+.ptitle{
+    display:flex;
+}
+.toplinks {
+    display:flex;
+    flex-direction:row;
+    margin: 0px;
+    padding:0px;
+    gap:16px;
 
+  }
 a{
     text-decoration:none;
     color:#F9FAF8;
@@ -25,11 +36,10 @@ ul {
 
 }
 
-.toplinks {
-    width: 300px;
+.content {
     display:flex;
-    flex-direction:row;
-    padding:16px;
-    gap:16px;
-
-  }
+    flex: 1;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
