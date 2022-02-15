@@ -11,3 +11,7 @@ compare it to Landing Project 1 as a reference.
 
 
 I only used HTML and CSS for this.
+
+Here is the follow up: https://github.com/ArchdukeChilly/landing-project_1
+
+
